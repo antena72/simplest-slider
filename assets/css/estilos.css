@@ -1,0 +1,42 @@
+body{
+    font-family: Open sans, Arial;
+}
+#container{
+    background: #bebebe;
+    padding: 50px 0;
+    max-width: 1200px;
+    position: relative;
+    width: 100%;
+}
+#controles{
+    background: khaki;
+    position: absolute;
+    top:50%;
+    width: 100%;
+}
+#controles #btnAnt{
+    position: absolute;
+    left: 0;
+}
+#controles #btnSig{
+    position: absolute;
+    right: 0;
+}
+
+.slider{
+    border: solid 2px gray;
+    float: left;
+    height: 500px;
+    overflow: hidden; /* permite ocultar el resto de los slides */
+    position: relative;
+    width: 100%;
+}
+.s_element{
+    display: none;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.s_visible{
+    display: block;
+}
